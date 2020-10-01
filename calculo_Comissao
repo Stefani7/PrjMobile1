@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Soma com valores Definidos</title>
+    <title>Soma</title>
 </head>
 <body>
     
-    <h1>Efetuando uma soma com PHP</h1>
+    <h1>Conta de somar</h1>
      
     <?php
 
         // Variáveis
-        $num1=10;
-        $num2=20;
+        $num=0;
+        $num1=0;
 
         // Efetua a soma
-        $total = $num1+$num2;
+        $total = $num+$num1;
 
         // Mostrando Resultado
         echo "O Resultado da soma é $total";
